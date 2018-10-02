@@ -2,15 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39505" started-at="2018-07-18T16:30:04Z" finished-at="2018-07-18T16:30:43Z">
+  <suite name="Suite" duration-ms="58001" started-at="2018-10-02T04:57:09Z" finished-at="2018-10-02T04:58:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39505" started-at="2018-07-18T16:30:04Z" finished-at="2018-07-18T16:30:43Z">
+    <test name="Test" duration-ms="58001" started-at="2018-10-02T04:57:09Z" finished-at="2018-10-02T04:58:07Z">
       <class name="com.Mav.MAA.MavenScripts">
-        <test-method status="PASS" signature="setupt()[pri:0, instance:com.Mav.MAA.MavenScripts@6df97b55]" name="setupt" duration-ms="39461" started-at="2018-07-18T16:30:04Z" finished-at="2018-07-18T16:30:43Z">
+        <test-method status="PASS" signature="extent()[pri:0, instance:com.Mav.MAA.MavenScripts@234bef66]" name="extent" is-config="true" duration-ms="1389" started-at="2018-10-02T04:57:09Z" finished-at="2018-10-02T04:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extent -->
+        <test-method status="PASS" signature="setupt()[pri:0, instance:com.Mav.MAA.MavenScripts@234bef66]" name="setupt" duration-ms="55622" started-at="2018-10-02T04:57:10Z" finished-at="2018-10-02T04:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupt -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Mav.MAA.MavenScripts@234bef66]" name="teardown" is-config="true" duration-ms="968" started-at="2018-10-02T04:58:06Z" finished-at="2018-10-02T04:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.Mav.MAA.MavenScripts -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
